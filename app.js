@@ -16,17 +16,21 @@ function draw() {
 }
 
 function day1AM () {
-        console.log("Hello World");
+        // console.log("Hello World");
         var fullName = "Lillian McBride";
         var age = 28;
         var height = 64;
         var address = "1959 Park Ave."
         var middleName;
-        console.log(middleName);
-        console.log(typeof(age));
+        // console.log(middleName);
+        // console.log(typeof(age)); 
         var likesPizza = true;
         var hasTattoos = false;
-        console.log(typeof(likesPizza));
+        // console.log(typeof(likesPizza));
+
+        age = age + 1;
+        consolue.log(fullName + " is " height/12 " feet and " height%12 " inches tall")
+
 }
 
 day1AM();
