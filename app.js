@@ -13,5 +13,20 @@ function draw() {
         strokeWeight(3);
         line(0, 40, 640, 40);
 
-    
 }
+
+function day1AM () {
+        console.log("Hello World");
+        var fullName = "Lillian McBride";
+        var age = 28;
+        var height = 64;
+        var address = "1959 Park Ave."
+        var middleName;
+        console.log(middleName);
+        console.log(typeof(age));
+        var likesPizza = true;
+        var hasTattoos = false;
+        console.log(typeof(likesPizza));
+}
+
+day1AM();
