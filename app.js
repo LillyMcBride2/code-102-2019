@@ -15,7 +15,7 @@ function draw() {
 
 }
 
-function day1AM () {
+/*function day1AM () {
         // console.log("Hello World");
         var fullName = "Lillian McBride";
         var age = 28;
@@ -29,8 +29,40 @@ function day1AM () {
         // console.log(typeof(likesPizza));
 
         age = age + 1;
-        consolue.log(fullName + " is " height/12 " feet and " height%12 " inches tall")
+        var feet = Math.floor(height/12);
+        var inches = height % 12;
+        console.log(fullName + " is " + feet + " feet and " + inches + " inches tall");
+
+}*/
+
+//day1AM();
+
+function day2AM() {
+        console.log(1);
+        console.log(2);
+        console.log(3);
+
+
 
 }
 
-day1AM();
+day2AM();
+var count = 1
+
+while(count <= 100){
+        console.log(count);
+        count++;
+}
+
+var sum = 0;
+var count = 0;
+while(true){
+        var input = parseInt(prompt("Enter a number. Type 0 to end."))
+                if (input === 0){
+                        break;
+                }
+                else{
+                        sum+= input;
+                        count++;
+                }
+}
